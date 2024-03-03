@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-bottom: 18px solid #0EE1E1;
+}
+
+
+.container {
+    width: 100vw;
+    height: 635px;
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    display: flex;
+}
+
+.photo {
+    margin: auto;
+    width: 325;
+    height: 267px;
+    align-items: center;
+    order: 3;
+    /* background-color: blue; */
+
+
+
+}
+
+.content {
+    order: 2;
+    width: 790px;
+    direction: rtl;
+    /* background-color: burlywood; */
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    left: 200px;
+    width: 800px;
+    height: 160px;
+
+
+}
+
+.content h1 {
+    font-size: 66px;
+    font-family: heebo;
+    font-weight: 900;
+    text-align: right;
+}
+
+.content p {
+    text-align: right;
+    font-family: heebo;
+    font-size: 20px;
+}
+
+.whatsapp {
+    order: 1;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.whatsapp:hover {
+    cursor: pointer;
+}
+
+.whatsapp img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+
+.container-title {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.block {
+    width: 450px;
+    height: 330px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    padding: 70px;
+}
+
+.bx {
+    font-size: 43px;
+    margin-bottom: 30px;
+}
+
+.block h2 {
+    text-align: center;
+    font: normal normal 900 30px/44px Heebo;
+    letter-spacing: 0px;
+    color: #0EE1E1;
+    opacity: 1;
+}
+
+.block p {
+    text-align: center;
+    font: normal normal normal 15px/22px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.container-form {
+    display: flex;
+    height: 938px;
+}
+
+.form {
+    width: 829px;
+    height: 939px;
+    margin-top: 120x;
+}
+
+form {
+    direction: rtl;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-color: yellowgreen; */
+    width: 426px;
+    height: 615px;
+
+}
+
+
+form h1 {
+    text-align: right;
+    font: normal normal 900 46px/67px Heebo;
+    color: #090909;
+
+}
+
+form p {
+    text-align: right;
+    font: normal normal normal 15px/22px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+
+}
+
+form label {
+    text-align: right;
+    font: normal normal bold 13px/19px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+
+    display: block;
+}
+
+form input {
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #0EE1E1;
+    width: 426px;
+    height: 51px;
+}
+
+#note {
+    height: 145px;
+}
+
+input[type="submit"] {
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.googlemap {
+    width: 1090px;
+    height: 940px;
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+
+}
+
+.map {
+    display: flex;
+    width: 943px;
+    height: 768px;
+    margin: 0 auto;
+    position: relative;
+    top: 73px;
+}
+
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.icons {
+    width: 494px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.bxl-facebook {
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+
+
+
+}
+
+.bxl-instagram {
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+
+
+
+}
+
+.bxl-linkedin {
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+
+
+}
+
+
+.bxs-phone {
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+
+
+}

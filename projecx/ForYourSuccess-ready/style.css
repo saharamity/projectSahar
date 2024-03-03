@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Noto+Sans&family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&family=Protest+Riot&family=Protest+Strike&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(Path\ 15.png);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container-form {
+    background-color: #1A1A1AD4;
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    margin: 0 auto;
+    top: 70px;
+    padding: 20px 0px 20px 0px;
+    left: 850px;
+
+}
+
+.container-form h1 {
+    color: azure;
+    font-size: 24pt;
+    font-family: heebo, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container-form p {
+    color: azure;
+    font-size: 12pt;
+    font-family: heebo, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#form .form {
+    height: 240px;
+    color: #ffff;
+    text-align: right;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.form-control label {
+    display: block;
+}
+
+
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: azure;
+    font-family: heebo, sans-serif;
+
+
+}
+
+::placeholder {
+    color: gray;
+    font-size: 8pt;
+    opacity: 0.6;
+
+}
+
+
+
+
+input[type="text"] {
+    width: 360px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+    height: 50px;
+    border: 1.1px solid #D31C75;
+    background-color: azure;
+}
+
+input[type="email"] {
+    width: 360px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+    height: 50px;
+    border: 1.1px solid #D31C75;
+    background-color: azure;
+}
+
+input[type="submit"] {
+    /* font-family: Heebo, sans-serif; */
+    font: normal normal bold 22px/30px Heebo;
+    font-weight: bold;
+    background-color: #D31C75;
+    text-align: center;
+    color: azure;
+    font-size: 18px;
+    height: 50px;
+    width: 160px;
+    margin-top: 35px;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 1px;
+}
+
+
+/* media screen  */
+
+
+
+@media(max-width:800px) {
+
+    /* responsive for iphone xr */
+
+
+
+    .container {
+        width: 100vw;
+        height: 45vh;
+        overflow: hidden;
+        object-fit: cover;
+        background-size: cover;
+
+    }
+
+    .container-form {
+        left: 0;
+        width: 300px;
+        height: 500px;
+        margin: 50px;
+        top: 30px;
+    }
+
+    .container-form h1 {
+        font-size: 18pt;
+    }
+
+    .container-form p {
+        font-size: 12pt;
+        padding: 0;
+    }
+
+    #form {
+        position: relative;
+        bottom: 20px;
+    }
+
+
+
+    input[type="text"] {
+        width: 245px;
+        height: 40px;
+        position: relative;
+
+    }
+
+    input[type="email"] {
+        width: 245px;
+        height: 40px;
+        position: relative;
+        top: 30px;
+
+
+
+    }
+
+    input[type="submit"] {
+        position: relative;
+        top: 16pt;
+        left: 5px;
+        width: 90px;
+        font-size: 16px;
+
+    }
+
+    span {
+        position: relative;
+        top: 30px;
+    }
+}

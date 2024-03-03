@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-bottom: 6px solid #081b29;
+}
+
+.header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #081b29;
+}
+
+
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+.title {
+    width: 100vw;
+    height: 460px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.459);
+    justify-content: center;
+}
+
+
+.title h1 {
+    font: normal normal 900 80px/118px Heebo;
+    color: #3A3A3A;
+}
+
+.title p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: medium;
+    font-family: heebo;
+    letter-spacing: 0px;
+    color: #3A3A3A;
+    opacity: 1;
+}
+
+
+.btn-watch,
+.btn-download {
+    padding: 11px;
+    margin-left: 20px;
+    background: #081b29 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    font-size: 14px;
+    font-family: heebo;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #ededed;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.icons {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    /* background-color: green; */
+}
+
+.theproject {
+    background: #EBFEFF 0% 0% no-repeat padding-box;
+    height: 100vh;
+    border-bottom: 51px solid #3A3A3A;
+
+}
+
+.theproject img {
+    margin: auto;
+    position: relative;
+    top: 70px;
+    justify-items: center;
+    display: flex;
+    height: 718px;
+    box-shadow: 0px 0px 40px #00000066;
+}

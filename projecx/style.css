@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+body {
+    background-color: #081b29;
+    color: #ededed;
+
+
+}
+
+.logo2 {
+    margin-left: 700px;
+    border-radius: 50%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 36px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.navbar a {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    direction: rtl;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .9s;
+    background: #ededed;
+
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+.codes {
+    width: 100vw;
+    height: 130px;
+    /* background-color: greenyellow; */
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.codes img {
+    border-radius: 50%;
+    justify-content: space-around;
+    margin-left: 20px;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.about {
+    width: 100vw;
+    height: 715px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    direction: rtl;
+
+}
+
+.about-control {
+    /* background-color: yellow;a */
+    width: 798px;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 15px;
+    color: black;
+
+
+}
+
+.about-control img {
+    width: 141px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px #ededed;
+    margin: 0 auto;
+}
+
+.about-control h1 {
+    font-size: 35px;
+    font-family: heebo;
+    font-weight: 900;
+    color: #ededed;
+}
+
+.about-control p {
+    font-size: 22px;
+    font-family: heebo;
+    color: #ededed;
+    text-align: center;
+}
+
+.about-control a {
+    width: 260px;
+    height: 41px;
+    text-align: center;
+    background-color: #00abf0;
+    margin: 0 auto;
+
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #ededed;
+
+}
+
+.projects {
+    /* background-color: yellow; */
+    background-color: rgba(0, 0, 139, 0.219);
+    width: 100vw;
+
+    padding-top: 30px;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: heebo;
+    font-weight: 900;
+    color: #ededed;
+
+}
+
+.p-gallery {
+    width: 576px;
+    height: 58px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: heebo;
+    font-weight: bold;
+    color: #ededed;
+}
+
+.blocks3 {
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+    padding-bottom: 20px;
+}
+
+
+
+.block-1 {
+    box-shadow: 3px 3px 15px #00000029;
+    width: 405px;
+    height: 518px;
+    justify-content: space-around;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.block-1 .download-project {
+    text-decoration: none;
+    width: 152px;
+    height: 30px;
+    background-color: #00abf0;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+
+.form {
+    display: flex;
+    width: 100vw;
+    height: 960px;
+    background: #3A3A3A 0% 0% no-repeat padding-box;
+}
+
+form {
+    order: 2;
+    direction: rtl;
+    width: 549px;
+    height: 646px;
+    /* background-color: yellowgreen; */
+    margin: 0 auto;
+    padding-top: 90px
+}
+
+.img {
+    order: 1;
+    /* background-color: yellow; */
+}
+
+
+.icons img {
+    border-radius: 50%;
+}
+
+
+form h1 {
+    font-size: 36px;
+    text-align: right;
+    font-family: heebo;
+    font-weight: 900;
+    color: #ededed;
+}
+
+form p {
+    width: 548px;
+    height: 58px;
+    font-size: 20px;
+    font-family: heebo;
+    color: #ededed;
+    text-align: right;
+}
+
+.form-control label {
+    font-size: 16px;
+    color: #ededed;
+    font-family: heebo;
+    text-align: right;
+    display: block;
+}
+
+.form-control input {
+    width: 548px;
+    height: 50px;
+    border: none;
+    border-bottom: 4px solid #00abf0;
+}
+
+
+#note {
+    height: 100px;
+}
+
+.btn {
+    width: 166px;
+
+    height: 50px;
+    border-radius: 25px;
+    font-size: 22px;
+    letter-spacing: 0.33px;
+    font-weight: bold;
+    background-color: #00abf0;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.bx {
+
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.bx p {
+    font-size: 16px;
+    margin-top: 15px;
+    font-size: heebo;
+}
+
+
+body {
+    border-bottom: 11px solid #00abf0;
+}
+
+.copyright {
+    background-color: black;
+    display: flex;
+}
+
+.name {
+    width: 50%;
+    direction: ltr;
+    text-align: left;
+    font-size: 32px;
+    font-family: heebo;
+    text-shadow: 2px;
+}
+
+.namecopy {
+    width: 50%;
+    direction: rtl;
+    text-align: right;
+    font-size: 32px;
+    font-family: heebo;
+}

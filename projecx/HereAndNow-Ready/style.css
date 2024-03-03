@@ -1,0 +1,207 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#container {
+
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 160px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    font: normal normal normal 160px/231px Satisfy;
+}
+
+h2 {
+    font: normal normal normal 32px/38px Varela Round;
+    font-size: 32px;
+    color: white;
+
+}
+
+p {
+
+    font: normal normal normal 16px/20px Varela Round;
+    color: #F9F9F9;
+    font-size: 16px;
+
+}
+
+button {
+    background-color: white;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    color: #1c1c1c;
+    border: 0px solid;
+    position: relative;
+    top: 1px;
+    right: 15px;
+}
+
+#form {
+    width: 100vw;
+    height: 100vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+input {
+    width: 417px;
+    height: 50px;
+    text-align: center;
+    
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+
+
+
+}
+
+label {
+
+    color: #F9F9F9;
+    position: relative;
+    bottom: 25px;
+    font: normal normal normal 16px/20px Varela Round;
+ 
+
+}
+
+.container-formControl {
+    width: 1099px;
+    height: 73px;
+}
+
+/* responsive !  */
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    top: 270px;
+    left: 440px;
+    width: 1100px;
+    height: 407px;
+    position: relative;
+}
+
+#container h1 {
+    text-align: center;
+    font: normal normal normal 160px/231px Satisfy;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+}
+
+#container h2 {
+    text-align: center;
+    font: normal normal normal 32px/38px Varela Round;
+    color: #FFFFFF;
+}
+
+#container p {
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    color: #F9F9F9;
+}
+
+
+
+.formcontrol {
+    width: 1100px;
+    height: 75px;
+    display: flex;
+
+}
+
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="text"] {
+
+    width: 418px;
+    height: 50px;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+
+
+}
+
+input[type="email"] {
+
+    width: 418px;
+    height: 50px;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    margin-left: 30px;
+
+
+
+}
+
+input[type="submit"] {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-left: ;
+    width: 206px;
+    height: 50px;
+    border: 0px solid;
+}
+
+label {
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    color: #F9F9F9;
+    position: relative;
+    bottom: 20px;
+    right: 24px;
+}
+
+span {
+    position: relative;
+    right: 15px
+}
+
+/* Responsive Side */
+
+
+/* /* responsive for iphone XR * */
+@media(max-width:800px) {
+    }

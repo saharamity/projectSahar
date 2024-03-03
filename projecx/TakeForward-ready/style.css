@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container-title {
+    width: 100vw;
+    height: 83vh;
+    background: transparent url('imges/Path\ 15.png') 0% 0% no-repeat padding-box;
+}
+
+h1 {
+    font-size: 5.375rem;
+    text-align: center;
+    font: normal normal bold 86px/113px Assistant;
+    color: #D3E10E;
+    padding: 202px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #F9F9F9;
+    font: normal normal normal 20px/26px Assistant;
+    position: relative;
+    bottom: 170px
+}
+
+
+.container-form {
+    width: 1100px;
+    height: 75px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font: normal normal bold 16px/21px Assistant;
+    color: #011560;
+
+}
+
+#fullname,
+#email {
+    width: 418px;
+    height: 50px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #D3E10E;
+    margin-left: 30px;
+}
+
+input[type="submit"] {
+    width: 166px;
+    height: 50px;
+    background: #D3E10E 0% 0% no-repeat padding-box;
+    font-size: 22px;
+    color: #011560;
+    border: 0;
+    position: relative;
+    top: 19px;
+    cursor: pointer;
+}
+
+
+@media(max-width: 800px) {
+    .container-title {
+        width: 370px;
+        height: 299px;
+        background: transparent url('./imges/Group\ 198.png') 0% 0% no-repeat padding-box;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .container-form {
+        width: 300px;
+        height: 42px;
+        background-color: green;
+    }
+
+    #fullname,
+    #email {
+        width: 285px;
+        height: 34.2px;
+        display: flex;
+        flex-direction: column;
+        background-color: greenyellow;
+
+
+    }
+
+
+    .name {
+        position: relative;
+        width: 200px;
+    }
+}
